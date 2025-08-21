@@ -1,0 +1,121 @@
+/* ฟอนต์ทั่วไป */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #FFF7E6;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #FFD6CC;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 16px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-item {
+  color: white;
+  padding: 8px 20px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #ffb2a1;
+}
+
+.nav-item.active {
+  background-color: #E4D0FF;
+  color: white;
+}
+
+/* ===== Content Section ===== */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+
+/* ===== Image Gallery ===== */
+.image-gallery {
+  width: 450px;
+  background-color: #FFEAF0;
+  padding: 20px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.main-image img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.grid-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-images img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* ===== วงกลมรูปกลาง ===== */
+.logo-circle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo-circle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo-circle .label {
+  margin-top: 10px;
+  background-color: #FADFE5;
+  color: #4D3A3A;
+  padding: 6px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+/* ===== Text Content ===== */
+.text-content {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px 35px;
+  border-radius: 24px;
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 2.1;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}

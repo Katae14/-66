@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #FFF7CC;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #FFC8B4;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 4px solid white;
+}
+
+.nav-item {
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.nav-item.active-contact {
+  background-color: #D6996B;
+  color: white;
+}
+
+/* Contact Section */
+.contact-box {
+  background-color: white;
+  width: fit-content;
+  margin: 60px auto;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.contact-text {
+  background-color: #D9F7F9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

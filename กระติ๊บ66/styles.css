@@ -1,0 +1,118 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.background {
+    background-color: #fff4c2;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Circle base style */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #c0b9a9;
+    opacity: 0.8;
+}
+
+/* Colors */
+.pink {
+    background-color: #f9c1c1;
+}
+
+.green {
+    background-color: #bfe6d0;
+}
+
+.purple {
+    background-color: #e0cde0;
+}
+
+/* Sizes */
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+.medium {
+    width: 200px;
+    height: 200px;
+}
+
+.large {
+    width: 300px;
+    height: 300px;
+}
+
+/* Positions */
+.top-left {
+    top: -50px;
+    left: -50px;
+}
+
+.top-center {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-right {
+    top: -50px;
+    right: -50px;
+}
+
+.mid-left {
+    top: 40%;
+    left: 5%;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid-right {
+    top: 40%;
+    right: 5%;
+}
+
+.bottom-left {
+    bottom: -50px;
+    left: -50px;
+}
+
+.bottom-center {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-right {
+    bottom: -50px;
+    right: -50px;
+}
+
+/* Text box */
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(200, 190, 140, 0.4);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.text-box h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}

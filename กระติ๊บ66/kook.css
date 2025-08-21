@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #FFF7CC; /* ครีมอ่อน */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #FFC8B4; /* ชมพูอ่อน */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 4px solid #fff;
+}
+
+.nav-item {
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.nav-item.active {
+  background-color: #A8C5FF; /* ฟ้ากลมมน */
+  color: white;
+}
+
+/* Menu Section */
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 60px;
+}
+
+/* Menu Button */
+.menu-btn {
+  background-color: #F7A9A0; /* ชมพูอ่อน */
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+  background-color: #f98e82;
+}
